@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.app-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.card-con {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0px 4px 8px 0px blue;
+  width: 50%;
+}
+.welcome-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-size: cover;
+}
+.head {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.des {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.sub-des {
+  color: #0b69ff;
+  font-family: 'Roboto';
+}
+.lower-con {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 6px 0px green;
+  padding: 10px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.title1 {
+  font-family: 'Roboto';
+  height: 30px;
+  border-radius: 4px;
+  margin-bottom: 7px;
+  outline: none;
+}
+.option {
+  outline: none;
+  height: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.history-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 6px 0px black;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 760px) {
+  .history-card {
+    min-width: 100px;
+  }
+}
+.button-sub {
+  align-self: flex-start;
+  margin-top: 5px;
+  outline: none;
+  background-color: #0b69ff;
+  color: #fff;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  width: 50px;
+  cursor: pointer;
+}
+.his-con {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 5px 0px skyblue;
+  border: 5px;
+  justify-content: space-between;
+}
+
+.details-con {
+  font-display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+}
+
+.table-header {
+  display: flex;
+  list-style: none;
+
+  justify-content: space-between;
+  width: 200px;
+}
+.header {
+  font-family: 'Roboto';
+  font-weight: 500;
+}

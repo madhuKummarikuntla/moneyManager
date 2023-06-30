@@ -1,0 +1,79 @@
+/* Write your CSS here */
+
+.your-bal-card {
+  display: flex;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: #ecfccb;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #84cc16;
+}
+@media screen and (min-width: 760px) {
+  .your-bal-card {
+    min-width: 100px;
+    margin-bottom: 10px;
+  }
+}
+.your-expenses-card {
+  background-color: #cffafe;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #06b6d4;
+}
+@media screen and (min-width: 760px) {
+  .your-expenses-card {
+    min-width: 100px;
+    margin-bottom: 10px;
+  }
+}
+.your-income-card {
+  display: flex;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: #ede9fe;
+
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #7c3aed;
+}
+@media screen and (min-width: 760px) {
+  .your-income-card {
+    min-width: 100px;
+    margin-bottom: 10px;
+  }
+}
+.money-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  min-width: 40%;
+  max-width: 1000px;
+}
+@media screen and (max-width: 760px) {
+  .money-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+.img {
+  width: 80px;
+  height: 70px;
+  margin-right: 20px;
+}
+.desc {
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.rule {
+  border: 1px solid rgb(5, 31, 5);
+}
